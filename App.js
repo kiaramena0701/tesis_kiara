@@ -10,8 +10,6 @@ import {
 } from 'react-native-router-flux';
 
 
-
-
 const reducerCreate = params => {
   const defaultReducer = new Reducer(params);
   return (state, action) => {
